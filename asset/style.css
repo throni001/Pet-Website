@@ -274,3 +274,77 @@ h4{color: #df2f8a;}
 
 
 /* footer */
+
+footer{
+    padding: 100px 150px;
+    background-color: #0C1321;
+}
+footer .main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer .pawsandplay img{
+    width: 50px;
+}
+
+footer .footer-service{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+footer .footer-service a{
+    text-decoration: none;
+    color: #7F8691;
+}
+
+.pawsandplay .logo-footer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.pawsandplay .logo-footer img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pawsandplay p{
+    margin-bottom: 10px;
+}
+.pawsandplay .social-media{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+footer .conntact-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    border-top: 1px solid #7F8691;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.conntact-footer h5{
+    color: #7F8691;
+    font-size: 18px;
+}
+
+footer .policy-footer{
+    display: flex;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #7F8691;
+    justify-content: space-between;
+}
+
+footer .policy-footer .term{
+    display: flex;
+    gap: 30px;
+}
+footer h4{
+    color: white;
+}
