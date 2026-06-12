@@ -11,6 +11,7 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 nav img{
@@ -347,4 +348,55 @@ footer .policy-footer .term{
 }
 footer h4{
     color: white;
+}
+
+
+/* hover */
+
+.hero-section img:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.our-story img:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.Our-service img:hover{
+    scale: 0.95;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.grid-service:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.our-story .sub-card:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+button:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.gallary img:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+nav .nav-option p:hover{
+    color: #df2f8a;
+    scale: 1.2;
+    transition: 0.5;
 }
